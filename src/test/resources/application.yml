@@ -1,0 +1,12 @@
+sasami:
+  ftp:
+    host: localhost
+    port: 10021
+    username: foo
+    password: bar
+    remote-path: "/foo/bar"
+    local-path: "target/test/ftp"
+    wildcard-filename: "foo*.csv"
+
+logging:
+  level:    jp.co.sunarch.sasami.ftp: trace

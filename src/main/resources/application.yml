@@ -1,0 +1,10 @@
+sasami:
+  ftp:
+    host: prodhost
+    port: 10021
+    username: produser
+    password: prodpassword
+    remote-path: "/prod/pathto"
+    local-path: "target/prod/pathto"
+    wildcard-filename: "prod*.csv"
+    download-target: ${DOWNLOAD_TARGET:99991231}
